@@ -1,10 +1,12 @@
 html{
 }
-#Contact {
-    background-color: black;
+   #Page {
+background-color: black;
+height: 600px;
+width: auto;
 }  
     nav a {
-        color: blueviolet;
+        color: gold;
         font-size: 20px;
         margin: 20px;
         padding: 20px;
@@ -15,111 +17,14 @@ html{
         font-size: 24px;
       }
 
-      #mid-section {
-        border-radius:10px;
-        background-color: blueviolet;
-        color: #fffb00;
-          width: ;
-          height: 200px;
-          margin: 30px;
-          padding: 20px;
-         
+      label{
+        color:gold
       }
 
-      p {
-        text-align: start;
-        background-color:blueviolet;
-        border: #fffb00 solid;
-        border-radius: 10px;
-        border-style: dotted;
-        width: 300px;
-        display: inline-block;
-        margin: 15px;
-        padding: 10px;
-        height: 100px;
-        color:#fffb00
-      }
-           .bn5 {
-            text-align: center;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 1.67;
-            letter-spacing: normal;
-            border: none;
-            outline: none;
-            color: gold;
-            background: #111;
-            cursor: pointer;
-            position:fixed;
-            border-radius: 20px;
-            border-style:double;
-            box-sizing: content-box;
-            align-content:end;
-          }
-          
-          .bn5:before {
-            content: "";
-            background: linear-gradient(
-              45deg,
-              #ff0000,
-              #ff7300,
-              #fffb00,
-              #48ff00,
-              #00ffd5,
-              #002bff,
-              #7a00ff,
-              #ff00c8,
-              #ff0000
-            );
-            position: absolute;
-            vertical-align:super;
-            display:inline-block;
-            top: -2px;
-            left: -2px;
-            background-size: 400%;
-            z-index: -1;
-            filter: blur(5px);
-            width: calc(100% + 4px);
-            height: calc(100% + 4px);
-            animation: glowingbn5 20s linear infinite;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-            border-radius: 10px;
-          }
-          
-          @keyframes glowingbn5 {
-            0% {
-              background-position: 0 0;
-            }
-            50% {
-              background-position: 400% 0;
-            }
-            100% {
-              background-position: 0 0;
-            }
-          }
-          
-          .bn5:active {
-            color: #000;
-          }
-          
-          .bn5:active:after {
-            background: transparent;
-          }
-          
-          .bn5:hover:before {
-            opacity: 1;
-          }
-          .bn5:after {
-            z-index: -1;
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: #191919;
-            left: 0;
-            top: 0;
-            border-radius: 10px;
-          }
+      #mid-section {
+         color: #fffb00;
+          width: auto;
+          height: 100px;
+          margin: 30px;
+          padding: 20px;
+      } 

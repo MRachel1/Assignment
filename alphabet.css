@@ -1,8 +1,15 @@
 html{
-box-sizing: content-box
+  background-color: black;
+  width: auto;
+  height: 600px;
+}
+
+p{
+  color: gold;
 }
 nav a {
-    color: blueviolet;
+  
+    color: gold;
     font-size: 20px;
     margin: 20px;
     padding: 20px;

@@ -1,0 +1,56 @@
+html {
+  }
+
+  *:before, *:after,{
+    box-sizing: inherit;
+    font-family: serif;
+    font-size: 18px;
+  }
+  
+  h1 {
+    color: gold;
+    padding: 10px;
+  }
+  
+  h3 {
+    color: Gold;
+    padding: 10px;
+  }
+  p {
+    color: white; 
+    padding: 10px;
+  }
+  
+  nav a {
+    color: gold;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+    nav a:hover{
+    color: white;
+    font-size: 24px;
+  }
+ 
+  #MyPage {
+    width: 600px;
+    height: 550px;
+    border-radius: 5px;
+    background-color:black;
+  }
+  
+  #mid-section {
+    color:gold;
+    width: 600px;
+    height: 250px;
+    font-size: 16px;
+    padding: 10px
+  }
+  
+    
+  @media (max-width: 600px){
+    #MyPage { 
+      width: 100%;
+      height: auto;
+    } 

@@ -1,0 +1,14 @@
+html{
+box-sizing: content-box
+}
+nav a {
+    color: blueviolet;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+    nav a:hover{
+    color: red;
+    font-size: 24px;
+  }
